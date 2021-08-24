@@ -5,7 +5,7 @@
 ##
 ##  Before running the script modify line:
 ##  203 - Add your storage account name, file share name, file share path, and shared access signature token.
-##Test
+##Test2
 ##  This script pefroms the following functions:
 ##  Elevates as Administrator
 ##  Switches to TLS 1.2

@@ -206,7 +206,7 @@ C:\_Admin_Tools\AzCopy\AzCopy.exe copy "https://<storage-account-name>.file.core
 Start-Sleep -s 5
 
 ## Mount Server 2022 ISO
-Write-Host "Installing  Server 2022 In-Place Upgrade" -ForegroundColor Green
+Write-Host "It may say transfer failed, ignore that statement... Installing  Server 2022 In-Place Upgrade" -ForegroundColor Green
 $vol = Mount-DiskImage C:\Server2022-InPlaceUpgrade\Server2022.iso  -PassThru |
 	Get-DiskImage | 
 	Get-Volume
